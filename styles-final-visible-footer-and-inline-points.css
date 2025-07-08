@@ -1,0 +1,1958 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple";
+  background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(0.1250rem);
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.95);
+  border: 0.0063rem solid rgb(179, 165, 210);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 4.2188rem;
+  padding-right: 4.2188rem;
+  padding-top: 1.1250rem;
+  padding-bottom: 1.1250rem;
+}
+
+.profile-image {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border-radius: 50%;
+  background-image: url("images/my-logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0.1250rem solid rgb(94, 104, 119);
+  box-shadow: 0 0 0.3750rem rgba(255, 255, 255, 0.5),
+    0 0 0.7500rem rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-image:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 0.8750rem white, 0 0 1.5000rem rgba(255, 255, 255, 0.4),
+    0 0 2.2500rem rgba(255, 255, 255, 0.3);
+}
+
+.home-about-skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2500rem;
+}
+
+.my-name > p {
+  color: rgb(111, 65, 210);
+  font-size: 1.5625rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.home-about-skills > div > p {
+  color: rgb(229, 231, 235);
+  font-size: 1.1250rem;
+  font-weight: 500;
+}
+
+.home-about-skills > div {
+  padding-left: 1.0625rem;
+  padding-right: 1.0625rem;
+  padding-top: 0.7500rem;
+  padding-bottom: 0.7500rem;
+  border-radius: 0.6250rem;
+  cursor: pointer;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.home-about-skills > div:hover {
+  border: 0.0625rem solid none;
+  border-radius: 0.6250rem;
+  background-color: rgb(17, 24, 39);
+  padding-left: 1.0625rem;
+  padding-right: 1.0625rem;
+  padding-top: 0.7500rem;
+  padding-bottom: 0.7500rem;
+}
+
+.college-svg {
+  color: rgb(111, 65, 210);
+  width: 1.0000rem;
+  height: 1.0000rem;
+}
+
+.iit {
+    padding-top: 5.3750rem;
+}
+
+.main-container-iit {
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  padding-left: 3.8750rem;
+  padding-right: 4.2188rem;
+  padding-top: 1.7500rem;
+  padding-bottom: 1.7500rem;
+}
+
+.iit-const {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  border: 0.0625rem solid rgb(192, 132, 252);
+  border-top-right-radius: 62.4375rem;
+  border-bottom-right-radius: 62.4375rem;
+  border-top-left-radius: 62.4375rem;
+  border-bottom-left-radius: 62.4375rem;
+  padding-top: 0.5625rem;
+  padding-bottom: 0.5625rem;
+  padding-left: 1.0000rem;
+  padding-right: 1.0000rem;
+  background: linear-gradient(
+    to right,
+    rgba(147, 51, 234, 0.12),
+    rgba(147, 51, 234, 0.18)
+  );
+}
+
+.iit-const > p {
+  color: rgb(216, 180, 254);
+  font-size: 0.8750rem;
+  font-weight: 500;
+}
+
+.main-container-home {
+  padding-left: 4.2188rem;
+  padding-right: 4.2188rem;
+  display: flex;
+  align-items: center;
+  gap: 3.7500rem;
+  margin-top: -0.3125rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(192, 132, 252, 0),
+    rgba(192, 132, 252, 0.8),
+    rgba(192, 132, 252, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.0625rem;
+  background-position: 0 100%;
+  padding-bottom: 2.7500rem;
+}
+
+.hi > p {
+  font-size: 3.7500rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.name > p {
+  margin-top: -1.1875rem;
+  font-size: 3.7500rem;
+  font-weight: 700;
+  color: rgb(192, 132, 252);
+  cursor: default;
+}
+
+.bio > p {
+  padding-top: 0.4375rem;
+  font-size: 1.5000rem;
+  color: rgb(209, 213, 219);
+}
+
+.points {
+  display: flex;
+  margin-left: -1.1875rem;
+  padding-top: 0.3750rem;
+}
+
+.btech-student > p {
+  font-size: 1.1250rem;
+  color: rgb(156, 163, 175);
+}
+
+.learning-full-stack > p {
+  font-size: 1.1250rem;
+  color: rgb(156, 163, 175);
+}
+
+.dot-svg {
+  color: rgb(192, 132, 252);
+}
+
+.point1 {
+  display: flex;
+  align-items: center;
+}
+
+.get-in-touch-resume {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  padding-top: 1.0625rem;
+}
+
+.get-in-touch-resume > div {
+  color: rgb(255, 255, 255);
+}
+
+.get-in-touch > p {
+  font-size: 1.0000rem;
+  font-weight: 500;
+}
+
+.resume > p {
+  font-size: 1.0000rem;
+  font-weight: 500;
+}
+
+.get-in-touch {
+  display: flex;
+  align-items: center;
+  gap: 0.7500rem;
+  border: none;
+  border-radius: 0.5000rem;
+  background-color: rgb(111, 65, 210);
+  padding-left: 1.8750rem;
+  padding-right: 1.8750rem;
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8750rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.get-in-touch:hover {
+  transform: scale(1.08);
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  gap: 0.7500rem;
+  border: 0.0938rem solid rgb(209, 213, 219);
+  border-radius: 0.5000rem;
+  padding-left: 1.8750rem;
+  padding-right: 1.8750rem;
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8750rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resume:hover {
+  transform: scale(1.08);
+}
+
+.container-right {
+  width: 36.5625rem;
+  height: 20.5000rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8125rem;
+  width: 36.5625rem;
+  height: 23.1250rem;
+  border: 0.0625rem solid rgb(94, 104, 119);
+  border-radius: 0.9375rem;
+  background-color: rgb(28, 32, 57);
+  margin-top: -1.4375rem;
+}
+
+.engineering-development {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+  margin-bottom: -0.2500rem;
+  margin-left: 1.3125rem;
+  margin-right: 1.3125rem;
+}
+
+.image-icon {
+  border: none;
+  border-radius: 50%;
+  width: 11.8750rem;
+  height: 11.8750rem;
+  background-image: url("images/my-selfie-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -0.3125rem;
+  margin-bottom: 0.4375rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-icon:hover {
+  transform: scale(1.07);
+}
+
+.caption > p {
+  font-size: 1.3750rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.engineering {
+  border: 0.0625rem solid rgb(94, 104, 119);
+  border-radius: 0.5000rem;
+  background-color: rgb(22, 24, 41);
+  cursor: default;
+}
+
+.development {
+  border: 0.0625rem solid rgb(94, 104, 119);
+  border-radius: 0.5000rem;
+  background-color: rgb(22, 24, 41);
+  cursor: default;
+}
+
+.inner-engineering > .text1 {
+  color: rgb(111, 65, 210);
+  font-size: 0.9375rem;
+}
+
+.inner-development > .text1 {
+  color: rgb(111, 65, 210);
+  font-size: 0.9375rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5.0000rem;
+  padding-right: 5.0000rem;
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
+}
+
+.text2 {
+  color: rgb(209, 213, 219);
+  font-size: 0.9375rem;
+}
+
+.inner-engineering {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.0625rem;
+}
+
+.inner-development {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.0625rem;
+}
+
+.main-container-about {
+  padding-left: 4.2188rem;
+  padding-right: 4.2188rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    rgba(192, 132, 252, 0),
+    rgba(192, 132, 252, 0.8),
+    rgba(192, 132, 252, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.0625rem;
+  background-position: 0 100%;
+  padding-bottom: 3.1250rem;
+}
+
+.about-me-and-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6250rem;
+  padding-top: 6.6250rem;
+}
+
+.about-me > p {
+  color: rgb(255, 255, 255);
+  font-size: 2.2500rem;
+  font-weight: 700;
+}
+
+.about-caption > p {
+  color: rgb(209, 213, 219);
+  font-size: 1.2500rem;
+  word-spacing: 0.1875rem;
+}
+
+.bio-current-year-major {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8125rem;
+  padding-top: 3.3125rem;
+}
+
+.bio-current-year-major-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5625rem;
+}
+
+.bio-current-year-major-left-container > div > p {
+  color: rgb(209, 213, 219);
+  font-size: 1.1250rem;
+  word-spacing: 0.0625rem;
+  line-height: 1.4;
+}
+
+.bio-current-year-major-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5000rem;
+}
+
+.current-year-major {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5000rem;
+}
+
+.learning-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5000rem;
+}
+
+.bio-current-year-major-right-container > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3750rem;
+  border: 0.0625rem solid rgb(94, 104, 119);
+  border-radius: 0.9375rem;
+  background-color: rgb(28, 32, 57);
+  width: 17.5000rem;
+  height: 10.3125rem;
+  transition: all 0.3s ease;
+  transform-origin: center;
+  will-change: transform;
+  cursor: default;
+}
+
+.bio-current-year-major-right-container > div > div:hover {
+  transform: scale(1.035);
+}
+
+.bio-current-year-major-right-container > div > div > .large {
+  color: rgb(255, 255, 255);
+  font-size: 1.6250rem;
+  font-weight: 700;
+}
+
+.bio-current-year-major-right-container > div > div > .small {
+  color: rgb(209, 213, 219);
+  font-size: 1.0000rem;
+}
+
+.bio-current-year-major-right-container > div > div > svg {
+  color: rgb(111, 65, 210);
+  padding-bottom: 0.8125rem;
+}
+
+.book-svg path {
+  stroke: currentColor;
+  stroke-width: 0.75;
+  stroke-linejoin: round;
+}
+
+.building-svg-2 path {
+  stroke: currentColor;
+  stroke-width: 0.3;
+  stroke-linejoin: round;
+}
+
+.code-svg path {
+  stroke: currentColor;
+  stroke-width: 0.75;
+  stroke-linejoin: round;
+}
+
+.work-svg path {
+  stroke: currentColor;
+  stroke-width: 0.3;
+  stroke-linejoin: round;
+}
+
+.skills-learning-and-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5625rem;
+  padding-top: 6.6250rem;
+}
+
+.skills-learning-and-caption > div > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2.2500rem;
+  font-weight: 700;
+}
+
+.skills-learning-and-caption > div > p {
+  color: rgb(209, 213, 219);
+  font-size: 1.2500rem;
+}
+
+.frontend-backend-civil-tools > div > div {
+  border: 0.0625rem solid rgb(94, 104, 119);
+  border-radius: 0.9375rem;
+  background-color: rgb(20, 28, 45);
+  width: 33.8750rem;
+  height: 16.2500rem;
+  padding: 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6250rem;
+  transition: all 0.3s ease;
+  transform-origin: center;
+  will-change: transform;
+  cursor: default;
+  text-rendering: optimizeLegibility;
+}
+
+.frontend-backend-civil-tools > div > div:hover {
+    transform: scale(1.011);
+}
+
+.frontend-backend-civil-tools {
+  display: flex;
+  flex-direction: row;
+  gap: 2.0000rem;
+}
+
+.frontend-backend-civil-tools > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2.0000rem;
+  padding-top: 4.6875rem;
+}
+
+.frontend-backend-civil-tools > div > div > div > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.2500rem;
+  font-weight: 600;
+}
+
+.back {
+  background-color: rgb(31, 41, 55);
+  height: 0.5000rem;
+  width: 33.8750rem;
+}
+
+.main-container-skills {
+  padding-left: 4.2188rem;
+  padding-right: 4.2188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(192, 132, 252, 0),
+    rgba(192, 132, 252, 0.8),
+    rgba(192, 132, 252, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.0625rem;
+  background-position: 0 100%;
+  padding-bottom: 3.1250rem;
+}
+
+[class*="percent-loading-bar"] > div > div:first-child > p {
+  color: rgb(209, 213, 219);
+  font-weight: 500;
+}
+
+[class*="percent-loading-bar"] > div > div:last-child > p {
+  color: rgb(111, 65, 210);
+  font-size: 0.8750rem;
+}
+
+[class*="percent-loading-bar"] > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+[class*="percent-loading-bar"] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6250rem;
+  margin-bottom: 0.9375rem;
+}
+
+.back {
+  border: none;
+  border-top-right-radius: 62.4375rem;
+  border-bottom-right-radius: 62.4375rem;
+  border-top-left-radius: 62.4375rem;
+  border-bottom-left-radius: 62.4375rem;
+}
+
+.back > div {
+  background: linear-gradient(to right, rgb(111, 65, 210), rgb(175, 80, 255));
+  height: 0.5000rem;
+  border: none;
+  border-top-right-radius: 62.4375rem;
+  border-bottom-right-radius: 62.4375rem;
+  border-top-left-radius: 62.4375rem;
+  border-bottom-left-radius: 62.4375rem;
+}
+
+.main-container-experience {
+  padding-left: 4.2188rem;
+  padding-right: 4.2188rem;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    rgba(192, 132, 252, 0),
+    rgba(192, 132, 252, 0.8),
+    rgba(192, 132, 252, 0)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.0625rem;
+  background-position: 0 100%;
+  padding-bottom: 3.1250rem;
+}
+
+.education-learning-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6250rem;
+    padding-top: 6.6250rem;
+}
+
+.education-learning-caption > div:first-child > h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.2500rem;
+    font-weight: 700;
+}
+
+.education-learning-caption > div:last-child > p {
+    color: rgb(209, 213, 219);
+    font-size: 1.2500rem;
+    word-spacing: 0.0625rem;
+}
+
+.btech-self-learning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8750rem;
+    padding-top: 3.5000rem;
+}
+
+.btech-self-learning > div {
+    width: 76.0000rem;
+    height: 23.0000rem;
+    border: 0.0625rem solid rgb(94, 104, 119);
+    border-radius: 0.9375rem;
+    background-color: rgb(20, 28, 45);
+    transition: all 0.3s ease;
+    transform-origin: center;
+    will-change: transform;
+    cursor: default;
+}
+
+.btech-self-learning > div:hover {
+    transform: scale(1.015);
+}
+
+.btech-container > div,
+.self-learning-container > div {
+    padding-left: 1.8750rem;
+    padding-right: 1.8750rem;
+    padding-top: 1.6250rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6250rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 0.6250rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(2) > svg {
+    color: rgb(111, 65, 210);
+}
+
+.btech-self-learning > div > div > div:nth-child(2) > svg path {
+    stroke: currentColor;
+    stroke-width: 0.75;
+    stroke-linejoin: round;
+}
+
+.btech-self-learning > div > div > div:nth-child(3) > div > svg {
+    color: rgb(209, 213, 219);
+}
+
+.btech-self-learning > div > div > div:nth-child(3) > div > svg path {
+    stroke: currentColor;
+    stroke-width: 0.1;
+    stroke-linejoin: round;
+}
+
+.btech-self-learning > div > div > div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 1.0000rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(3) > div {
+    display: flex;
+    align-items: center;
+    gap: 0.6250rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7500rem;
+    padding-top: 0.1875rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(6) > div {
+    display: flex;
+    align-items: center;
+    gap: 0.2500rem;
+}
+
+.btech-self-learning > div > div > div:first-child > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.5000rem;
+    font-weight: 700;
+}
+
+.btech-self-learning > div > div > div:nth-child(2) > p {
+    color: rgb(111, 65, 210);
+    font-size: 1.1250rem;
+    font-weight: 500;
+}
+
+.btech-self-learning > div > div > div:nth-child(6) > div > svg {
+    color: rgb(111, 65, 210);
+}
+
+.btech-self-learning > div > div > div:nth-child(3) > div > p,
+.btech-self-learning > div > div > div:nth-child(4) > p,
+.btech-self-learning > div > div > div:nth-child(6) > div > p {
+    color: rgb(209, 213, 219);
+}
+
+.btech-self-learning > div > div > div:nth-child(4) > p {
+    padding-top: 0.6875rem;
+    padding-bottom: 1.0000rem;
+}
+
+.btech-self-learning > div > div > div:nth-child(5) > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.0000rem;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4.2188rem;
+    padding-right: 4.2188rem;
+    gap: 1.8750rem;
+    padding-top: 1.1875rem;
+}
+
+.top-footer > div:nth-child(2) > div:first-child {
+    margin-top: -1.8750rem;
+}
+
+.top-footer > div:first-child > div:nth-child(2) {
+    padding-left: 1.8750rem;
+    padding-top: 2.2500rem;
+}
+
+.bottom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3.1250rem;
+}
+
+.top-footer > div:first-child > div:first-child > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5000rem;
+}
+
+.top-footer > div:first-child > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0625rem;
+}
+
+.top-footer > div:first-child > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0625rem;
+}
+
+.top-footer > div:first-child > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+}
+
+.top-footer > div:first-child > div:first-child > div:first-child > svg {
+    color: rgb(111, 65, 210);
+}
+
+.top-footer > div:first-child > div:first-child > div:first-child > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.2500rem;
+    font-weight: 700;
+}
+
+.top-footer > div:first-child > div:first-child > div:nth-child(2) > p {
+    color: rgb(156, 163, 175);
+    font-size: 0.8750rem;
+    line-height: 1.6;
+}
+
+.top-footer > div:first-child > div:nth-child(2) > div:first-child > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.1250rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.top-footer > div:first-child > div:nth-child(2) > div:nth-child(2) > div > a {
+    text-decoration: none;
+    color: rgb(156, 163, 175);
+    font-size: 0.8750rem;
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:first-child > p {
+    color: rgb(255, 255, 255);
+    font-size: 1.2500rem;
+    font-weight: 700;
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div > p,
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div > a {
+    color: rgb(156, 163, 175);
+    font-size: 0.8750rem;
+    text-decoration: none;
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div {
+    transition: all 0.3s ease;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div:hover {
+    transform: scale(1.05);
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div > svg {
+    color: rgb(111, 65, 210);
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+}
+
+.top-footer > div:nth-child(2) > div:first-child > div:last-child > div {
+    display: flex;
+    align-items: center;
+    gap: 0.8750rem;
+}
+
+.top-footer > div:nth-child(2) > div:last-child > div > p {
+    color: rgb(255, 255, 255);
+    font-size: 0.8750rem;
+    white-space: nowrap;
+}
+
+.bottom-footer > div > p {
+    color: rgb(156, 163, 175);
+    font-size: 0.8750rem;
+}
+
+.top-footer > div:first-child > div:first-child > div:nth-child(3) > div {
+    display: inline;
+}
+
+.top-footer > div:first-child > div:first-child > div:nth-child(3) > div > a > svg {
+    color: rgb(156, 163, 175);
+}
+
+.top-footer > div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.7500rem;
+}
+
+.top-footer > div:first-child > div:first-child > div:nth-child(3) > div {
+    margin-right: 0.8125rem;
+}
+
+.top-footer > div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 8.5625rem;
+}
+
+.top-footer > div:last-child > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.0625rem;
+}
+
+.top-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.6250rem;
+    padding-bottom: 2.3125rem;
+    border-bottom: 0.0625rem solid rgb(136, 134, 134);
+}
+
+.top-footer > div:nth-child(2) > div:last-child > div {
+    border: none;
+    background-color: rgb(111, 65, 210);
+    border-radius: 0.6250rem;
+    padding-left: 4.6875rem;
+    padding-right: 4.6875rem;
+    padding-top: 0.6250rem;
+    padding-bottom: 0.6250rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.top-footer > div:nth-child(2) > div:last-child > div:hover {
+    transform: scale(1.04);
+}
+
+.svg-pop-out svg {
+  transition: transform 0.3s ease;
+  will-change: transform;
+  transform-origin: center;
+}
+
+.svg-pop-out:hover svg {
+  transform: scale(1.1);
+}
+
+/* === IMPROVED RESPONSIVE MEDIA QUERIES === */
+
+/* Global: prevent horizontal scroll */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Extra Small Devices (up to 375px) */
+@media (max-width: 375px) {
+  .main-container,
+  .main-container-home,
+  .main-container-about,
+  .main-container-skills,
+  .main-container-experience,
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .main-container-home {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  .hi > p,
+  .name > p {
+    font-size: 2rem;
+  }
+  .box,
+  .container-right,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+  .image-icon {
+    width: 5rem;
+    height: 5rem;
+  }
+  .points {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 0;
+  }
+}
+
+/* Small Mobile (376px to 575px) */
+@media (min-width: 376px) and (max-width: 575px) {
+  .main-container,
+  .main-container-home,
+  .main-container-about,
+  .main-container-skills,
+  .main-container-experience,
+  footer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .main-container-home {
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .caption {
+    padding-top: 0.76rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .major {
+    padding-top: 0.56rem;
+    padding-bottom: 0.56rem;
+  }
+
+  .top-footer > div:first-child > div:nth-child(2) {
+    padding-top: 0rem;
+    margin-top: -1rem;
+  }
+
+  .top-footer > div:nth-child(2) > div:nth-child(1) {
+    padding-top: 2rem;
+  }
+
+  .btech-self-learning > div > div > div:first-child > p {
+    padding-bottom: 0.75rem;
+  }
+
+  .btech-self-learning > div > div > div:nth-child(5) > p {
+    padding-bottom: 0.55rem;
+  }
+
+  .bio > p {
+    padding-top: 1rem;
+  }
+
+  .main-container-iit {
+    padding-left: 1.25rem;
+    padding-top: 2rem;
+  }
+
+  .box,
+  .container-right,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+  }
+}
+
+/* Tablets (576px to 991px) */
+@media (min-width: 576px) and (max-width: 991px) {
+  .main-container-home {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.5rem;
+  }
+  .points {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .container-right,
+  .box,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    height: auto;
+  }
+  .bio-current-year-major {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .frontend-backend-civil-tools {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* Small Laptops and Desktops (992px to 1200px) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .main-container-home {
+    gap: 2rem;
+  }
+  .container-right {
+    width: 30rem;
+  }
+  .box {
+    width: 30rem;
+    height: auto;
+  }
+}
+
+/* Large Desktops (1201px and above) */
+@media (min-width: 1201px) {
+  .main-container {
+    padding-left: 4.25rem;
+    padding-right: 4.25rem;
+  }
+}
+
+/* === ADDITIONAL IMPROVEMENTS FOR CENTERING & MARGIN FIXES === */
+
+/* Applies to small and medium screens */
+@media (max-width: 991px) {
+  .main-container,
+  .main-container-home,
+  .main-container-about,
+  .main-container-skills,
+  .main-container-experience,
+  footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-container-home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .container-right,
+  .box,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    max-width: 36rem;
+    height: auto;
+    padding: 1rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .bio-current-year-major {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .points {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 0.75rem;
+  }
+
+  .image-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caption {
+    text-align: center;
+  }
+
+  .engineering-development {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+  }
+}
+
+/* === FINAL RESPONSIVE + CENTERED LAYOUT FIX === */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Universal centering for inner containers */
+.main-container,
+.main-container-home,
+.main-container-about,
+.main-container-skills,
+.main-container-experience,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* XS: Up to 375px */
+@media (max-width: 375px) {
+  .main-container,
+  .main-container-home,
+  .main-container-about,
+  .main-container-skills,
+  .main-container-experience,
+  footer {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .home-about-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .container-right,
+  .box,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .points {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 0.5rem;
+  }
+
+  .bio-current-year-major {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .image-icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+  }
+
+  .caption,
+  .hi,
+  .name {
+    text-align: center;
+  }
+
+  .hi > p,
+  .name > p {
+    font-size: 1.75rem;
+  }
+}
+
+/* Small-Medium Devices: 376px to 767px */
+@media (min-width: 376px) and (max-width: 767px) {
+  .main-container-home {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .container-right,
+  .box,
+  .btech-self-learning > div,
+  .frontend-backend-civil-tools > div > div {
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+    margin: 0 auto;
+  }
+
+  .bio-current-year-major {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .points {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .frontend-backend-civil-tools {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .engineering-development {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+/* Tablets: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-container-home {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .container-right,
+  .box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 1.25rem;
+  }
+
+  .frontend-backend-civil-tools {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .bio-current-year-major {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+/* Small Desktop: 992px to 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-container-home {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2rem;
+  }
+
+  .container-right,
+  .box {
+    width: 32rem;
+    height: auto;
+  }
+}
+
+/* Large Screens: 1201px+ */
+@media (min-width: 1201px) {
+  .main-container {
+    padding-left: 4.25rem;
+    padding-right: 4.25rem;
+  }
+}
+
+/* === CRITICAL FIX: Ensure true centering and margins on small screens === */
+
+@media (max-width: 767px) {
+  .main-container,
+  .main-container-home,
+  .main-container-about,
+  .main-container-skills,
+  .main-container-experience,
+  footer {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .get-in-touch-resume {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .get-in-touch,
+  .resume {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .points {
+    margin-left: 0 !important;
+    justify-content: center !important;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* === CENTER .box AND BTECH BOXES ON SMALL SCREENS === */
+@media (max-width: 767px) {
+  .box,
+  .btech-self-learning > div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .main-container-experience,
+  .btech-self-learning {
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .bio-current-year-major-right-container > div > div {
+    margin: 0 auto;
+  }
+}
+
+/* === TARGETED FIX: 745px–974px get-in-touch centering and footer visibility === */
+@media (min-width: 745px) and (max-width: 974px) {
+  .get-in-touch-resume {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+  }
+
+  .get-in-touch,
+  .resume {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+/* Ensure footer is always fully visible and spaced */
+@media (max-width: 767px) {
+  footer,
+  .top-footer,
+  .bottom-footer {
+    padding-bottom: 2rem !important;
+    padding-top: 2rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
+  .top-footer > div,
+  .bottom-footer > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* === TARGETED FIXES: 975px–1250px for multiple layout corrections === */
+
+/* 975px–1250px */
+@media (min-width: 975px) and (max-width: 1250px) {
+
+  /* Fix profile image overflow inside .box */
+  .image-icon {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Align .get-in-touch-resume section */
+  .get-in-touch-resume {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem;
+    margin: 1.5rem auto;
+    width: 100%;
+  }
+
+  .get-in-touch,
+  .resume {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  /* Experience and Skills section padding/margin */
+  .main-container-experience,
+  .main-container-skills {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    box-sizing: border-box;
+  }
+
+  /* Engineering/Web Dev/Software/Infrastructure card fix */
+  .engineering-development {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .engineering,
+  .development,
+  .infrastructure,
+  .software {
+    width: 100%;
+    max-width: 360px;
+    padding: 1rem !important;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .one {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+/* === FINAL PATCH FIX: Proper padding + visible footer === */
+
+/* 975px to 1250px padding + centering for experience & skills */
+@media (min-width: 975px) and (max-width: 1250px) {
+  .main-container-experience,
+  .main-container-skills {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-container-experience > div,
+  .main-container-skills > div {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+
+/* Ensure footer is fully visible and properly padded */
+@media (max-width: 991px) {
+  footer,
+  .top-footer,
+  .bottom-footer {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    box-sizing: border-box;
+  }
+
+  .top-footer > div,
+  .bottom-footer > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* === FINAL FIX: Profile image visibility + experience/skills box layout for small screens === */
+
+/* Fix profile visibility issue in specific pixel ranges */
+@media (min-width: 768px) and (max-width: 975px) {
+  .profile-image {
+    display: block;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
+}
+
+/* Small devices: show experience and skills properly with padding */
+@media (max-width: 767px) {
+  .main-container-experience,
+  .main-container-skills {
+    padding: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-container-experience > div,
+  .main-container-skills > div {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+/* === FINAL LAYOUT CORRECTIONS FOR NAVBAR, FOOTER, CURRENT-YEAR-MAJOR === */
+
+/* Small screen navbar padding and visibility */
+@media (max-width: 767px) {
+  nav,
+  .navbar,
+  .navbar-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .navbar-container {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 1rem;
+  }
+}
+
+/* Footer consistent spacing across small devices */
+@media (max-width: 767px) {
+  footer {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+/* Fix layout of current-year-major boxes (up to 975px) */
+@media (max-width: 975px) {
+  .current-year-major,
+  .learning-projects {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .bio-current-year-major-right-container > div > div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .bio-current-year-major {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+/* === FINAL FIXES FOR REQUESTED ITEMS === */
+
+/* 974px–1250px: home profile image remains visible */
+@media (min-width: 974px) and (max-width: 1250px) {
+  .image-icon {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 11.875rem;
+    height: 11.875rem;
+  }
+}
+
+/* Engineering/Infrastructure/Web Dev/Software layout containment */
+@media (max-width: 1250px) {
+  .engineering-development {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+  }
+
+  .engineering,
+  .infrastructure,
+  .development,
+  .software {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 1rem !important;
+    box-sizing: border-box;
+  }
+}
+
+/* Inline "btech student" + "learning full stack" on small screens */
+@media (max-width: 767px) {
+  .points {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .btech-student,
+  .learning-full-stack {
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
+/* === ALIGN CIVIL ENGINEERING / MAJOR / YEAR CENTER ON SMALL SCREENS === */
+@media (max-width: 767px) {
+  .bio-current-year-major {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .bio-current-year-major-left-container,
+  .bio-current-year-major-left-container > div,
+  .bio-current-year-major-left-container > div > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .points {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .current-year-major,
+  .learning-projects {
+    justify-content: center;
+    text-align: center;
+    gap: 1.25rem;
+  }
+}
+
+/* === FINAL FIX: CENTER ALL 4 BOXES IN BIO-CURRENT-YEAR-MAJOR SECTION === */
+@media (max-width: 767px) {
+  .bio-current-year-major {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  .bio-current-year-major-left-container,
+  .bio-current-year-major-right-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bio-current-year-major-left-container > div,
+  .bio-current-year-major-left-container > div > p,
+  .bio-current-year-major-right-container > div > div,
+  .bio-current-year-major-right-container > div > div > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bio-current-year-major-right-container > div > div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    box-sizing: border-box;
+  }
+
+  .bio-current-year-major-left-container > div {
+    width: 100%;
+    max-width: 320px;
+    padding: 0.5rem;
+  }
+}
+
+/* === FINAL STRICT PATCH: Ensure footer is fully visible on small screens === */
+@media (max-width: 767px) {
+  footer,
+  .top-footer,
+  .bottom-footer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    box-sizing: border-box;
+    overflow: visible !important;
+    gap: 1.5rem;
+  }
+
+  .top-footer > div,
+  .bottom-footer > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* === FINAL FIX: Footer Get in Touch + BTech & Full Stack inline with spacing === */
+
+/* Make footer "Get in Touch" section visible on small screens */
+@media (max-width: 767px) {
+  .top-footer > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .top-footer > div:nth-child(2) > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .top-footer > div:nth-child(2) > div:last-child > div {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
+
+/* BTech + Full Stack + SVGs in one line with spacing (no size reduction) */
+@media (max-width: 767px) {
+  .points {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .btech-student,
+  .learning-full-stack {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 0.5rem;
+  }
+
+  .btech-student svg,
+  .learning-full-stack svg {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+  }
+}
