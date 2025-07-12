@@ -1003,6 +1003,11 @@ html, body {
 
 /* Extra Small Devices (up to 375px) */
 @media (max-width: 376px) {
+
+  .home-about-skills {
+    display: none;
+  }
+  
   .main-container,
   .main-container-home,
   .main-container-about,
